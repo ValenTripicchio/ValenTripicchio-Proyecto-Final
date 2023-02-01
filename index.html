@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button id="personalInfoBtn"><i class="fas fa-user"></i> Información Personal</button>
+            <button id="experienceBtn"> <i class="fas fa-briefcase"></i> Experiencia</button>
+            <button id="educationBtn"> <i class="fas fa-graduation-cap"></i>Educación</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="personalInfo">
+            <h3><i class="fas fa-user"></i> Información Personal</h3>
+            <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Foto de Perfil" id="perfilImg">
+            <p>Nombre: Juan Pérez</p>
+            <p>Fecha de Nacimiento: 01/01/2000</p>
+            <p>Dirección: Calle 123</p>
+            <p>Teléfono: 1234567890</p>
+            <p>Email: juanperez@email.com</p>
+        </section>
+
+        <section id="experience" style="display: none;">
+            <h3> <i class="fas fa-briefcase"></i> Experiencia</h3>
+            <ul id="experienceList">
+                <li><b>Desarrollador Junior</b> - Trabajé en un equipo de desarrollo en una empresa de tecnología,
+                    ayudando en el desarrollo de aplicaciones web y móviles.</li>
+                <li><b>Analista de soporte</b> - Brindé soporte técnico a clientes en una empresa de tecnología,
+                    solucionando problemas informáticos y proporcionando asesoramiento técnico.</li>
+                <li><b>Voluntario en proyecto de tecnología</b> - Participé en un proyecto de tecnología comunitaria,
+                    enseñando a jóvenes cómo programar y crear aplicaciones.</li>
+            </ul>
+        </section>
+
+        <section id="education" style="display: none;">
+            <h3> <i class="fas fa-graduation-cap"></i>Educación</h3>
+            <ul id="educationList">
+                <li><b>Universidad X</b> - Licenciatura en Ingeniería</li>
+                <li><b>Escuela de Negocios Y</b> - Maestría en Administración</li>
+                <li><b>Instituto Z</b> - Certificado en Desarrollo Web</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
